@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8483821089787207771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8483821089787207770}
+  - component: {fileID: 8483821089787207773}
+  m_Layer: 5
+  m_Name: MRI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8483821089787207770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483821089787207771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8483821089787207773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483821089787207771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: mri
+    name: MRI
+    slides:
+    - text: A MRI is a machine that takes pictures of the inside of my body.
+      audioClip: {fileID: 8300000, guid: 21665b74aaece0346800216e1204ce81, type: 3}
+      sprite: {fileID: 21300000, guid: 00db0e309ea928a49aa317a9c88ec2d2, type: 3}
+    - text: "The pictures are called \u201Cscans.\u201D"
+      audioClip: {fileID: 8300000, guid: 0d93a3759f5a35d419d194737323a362, type: 3}
+      sprite: {fileID: 21300000, guid: eb53cfa23df5d4e4cb4741b36e3a421f, type: 3}
+    - text: The pictures help the doctor see what I need to feel better.
+      audioClip: {fileID: 8300000, guid: f6226e05e1f4f254b8385098a6a89e1a, type: 3}
+      sprite: {fileID: 21300000, guid: d343d27ac464d1d43a511e4c998e7476, type: 3}
+    - text: The nurse will bring me into the room to get ready for the scan.
+      audioClip: {fileID: 8300000, guid: a6393011d3d74f744973e90473f834b1, type: 3}
+      sprite: {fileID: 21300000, guid: 869fdf0edeebf8a4abe32b5985b2eac7, type: 3}
+    - text: I may go into the MRI room on a bed, in a wheelchair, or walk in with
+        a grownup.
+      audioClip: {fileID: 8300000, guid: 3b49f608e2cb4524ebfbfc9a028bb7b7, type: 3}
+      sprite: {fileID: 21300000, guid: 3d903cf1361c809449ceb2122fd024b9, type: 3}
+    - text: I may have to wear a hospital gown.
+      audioClip: {fileID: 8300000, guid: cfe76bf5b0ab4c3479a18df2a28df0f7, type: 3}
+      sprite: {fileID: 21300000, guid: ddf19f28ecb55a540839559480b7b829, type: 3}
+    - text: I will have to take off anything that is made of metal like glasses,
+        jewelry, or hair clips. These things cannot go into the machine.
+      audioClip: {fileID: 8300000, guid: 8af1b494796806a47b22a11c2711e39b, type: 3}
+      sprite: {fileID: 21300000, guid: 4802c1461555b1f4f942cbc8a243b38d, type: 3}
+    - text: I may need an IV.
+      audioClip: {fileID: 8300000, guid: ecf077e4b5eb7124eb1fb822837fb373, type: 3}
+      sprite: {fileID: 21300000, guid: 2297325848fbd654d866ee39643a531e, type: 3}
+    - text: When the nurse is putting the IV in, I need to stay still, take depth
+        breath, and relax.
+      audioClip: {fileID: 8300000, guid: 16f8ec76cac221b4ba327886076afd62, type: 3}
+      sprite: {fileID: 21300000, guid: 2b9fb874d5c16804f876a80e132be6d4, type: 3}
+    - text: A nurse will help me get comfortable on the MRI bed.
+      audioClip: {fileID: 8300000, guid: be46680de7633bc46955ce77377fd017, type: 3}
+      sprite: {fileID: 21300000, guid: 59e27b65a567be64ead2422f0d21a2a4, type: 3}
+    - text: It is just like having my picture taken.
+      audioClip: {fileID: 8300000, guid: 7761c622c33bd6b4096669705398f78b, type: 3}
+      sprite: {fileID: 21300000, guid: cf21571407a2fe2409e386bad43e16ec, type: 3}
+    - text: The scan does not hurt.
+      audioClip: {fileID: 8300000, guid: 917dbe8ca19e6114eb5d75c63b1c2098, type: 3}
+      sprite: {fileID: 21300000, guid: c1704e400075e4040bc935a837a8fe3b, type: 3}
+    - text: The bed moves slowly, back and forth. I must stay very still.
+      audioClip: {fileID: 8300000, guid: a485bc56d9ed99f41a1030770b09b40d, type: 3}
+      sprite: {fileID: 21300000, guid: 8018280b0ce25e3479f266a0dcf92b3f, type: 3}
+    - text: When the pictures are done, the machine will move me out again.
+      audioClip: {fileID: 8300000, guid: e9720e015687a0b448ea2737675d28bb, type: 3}
+      sprite: {fileID: 21300000, guid: ee0e9eca7775316419d3a2217a0ead4c, type: 3}

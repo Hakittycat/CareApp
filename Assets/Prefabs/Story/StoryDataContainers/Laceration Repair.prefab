@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5507638954444143667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5507638954444143668}
+  - component: {fileID: 5507638954444143669}
+  m_Layer: 5
+  m_Name: Laceration Repair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5507638954444143668
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5507638954444143667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5507638954444143669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5507638954444143667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: laceration-repair
+    name: Laceration Repair
+    slides:
+    - text: 'Everyone gets scratches or cuts. Ouch! '
+      audioClip: {fileID: 8300000, guid: 3b1cf36a22937ca4c9e434f8cc277344, type: 3}
+      sprite: {fileID: 21300000, guid: 5d61924199003a54ca7c14b11614767f, type: 3}
+    - text: 'Sometimes a cut can be too big and deep to heal on its own. I will need
+        the doctors help. '
+      audioClip: {fileID: 8300000, guid: 5a6f659d6b21afa4fb6be7d2517da5d2, type: 3}
+      sprite: {fileID: 21300000, guid: 79b776e89cbbb074db8ad43b1d41f40a, type: 3}
+    - text: 'The doctor will use string band-aids to help close my cut so it can
+        heal. It is like sewing fabric together! '
+      audioClip: {fileID: 8300000, guid: 9d4b7e7fc75851345887cc4ab0b1efdf, type: 3}
+      sprite: {fileID: 21300000, guid: 41b6c7dbcfd88244c9b6b138081c5b85, type: 3}
+    - text: It is important for me to sit very still while the nurse and doctor fix
+        my cut.
+      audioClip: {fileID: 8300000, guid: 1851538602247a54ab74d8b3f03e857a, type: 3}
+      sprite: {fileID: 21300000, guid: f2878a4038a7eb44a8469811cb9925ea, type: 3}
+    - text: 'The nurse will use numbing medicine on my cut so it will not hurt. '
+      audioClip: {fileID: 8300000, guid: ea11393e155a9f640b54529da2dc5101, type: 3}
+      sprite: {fileID: 21300000, guid: 138b1f2524e5d754a9c3a743ecee5376, type: 3}
+    - text: When it is numb, the nurse will clean my cut with water.
+      audioClip: {fileID: 8300000, guid: 092f09e3c35b57948a034236300c7086, type: 3}
+      sprite: {fileID: 21300000, guid: f9e3cd949cf6caf47adb16f06bb19c3d, type: 3}
+    - text: 'She will get out all the dirt and germs. '
+      audioClip: {fileID: 8300000, guid: c5b2464bc4326b549ab04be4857242ed, type: 3}
+      sprite: {fileID: 21300000, guid: 4d80e204117997b4b9c765a164c58c84, type: 3}
+    - text: The doctor may or may not use a needle to give me more numbing medicine.
+      audioClip: {fileID: 8300000, guid: b8ee6384ee27707408e52158898e1dbf, type: 3}
+      sprite: {fileID: 21300000, guid: 7c5cdb755648cb74bb0bdf9d5f1484f5, type: 3}
+    - text: An x-ray may help the doctor check to make sure there is nothing else
+        in the cut.
+      audioClip: {fileID: 8300000, guid: b9d6f6c58e354d947be9c6d1880da979, type: 3}
+      sprite: {fileID: 21300000, guid: b8580bbe8155e8544a813bfccffec9cd, type: 3}
+    - text: A doctor will come in to fix my cut.
+      audioClip: {fileID: 8300000, guid: 231e11fc6b23642418932336e40d96ac, type: 3}
+      sprite: {fileID: 21300000, guid: f5cecee2ebb1f1f4ea11b8f0357973ab, type: 3}
+    - text: The doctor will use very tiny needle and special string to sew your cut
+        together.
+      audioClip: {fileID: 8300000, guid: 7c441d688a6543d49833b17cc71ea5b7, type: 3}
+      sprite: {fileID: 21300000, guid: 04220e6f022ff0e4da8d658e3d543790, type: 3}
+    - text: Even though I am numb, I might feel a tug as the doctor pulls the string
+        together.
+      audioClip: {fileID: 8300000, guid: e2d8ff01cd7976044ace636d4c27b8bd, type: 3}
+      sprite: {fileID: 21300000, guid: 673a572dd263930458413129b6f7372e, type: 3}
+    - text: 'The doctor will tie and knot when he is finished. '
+      audioClip: {fileID: 8300000, guid: 6a13485df19cff9408d57820030216c4, type: 3}
+      sprite: {fileID: 21300000, guid: fcb4126332535b84aa0dc3d035a3fd02, type: 3}
+    - text: I am finished! I did a great job!
+      audioClip: {fileID: 8300000, guid: 64fb8195dfd627b489b9b70bbbbe9dc5, type: 3}
+      sprite: {fileID: 21300000, guid: d5a04c00004319e4d98c03208e785b13, type: 3}

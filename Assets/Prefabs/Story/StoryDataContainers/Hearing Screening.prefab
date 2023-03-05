@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8637225879427699204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8637225879427699207}
+  - component: {fileID: 8637225879427699206}
+  m_Layer: 5
+  m_Name: Hearing Screening
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8637225879427699207
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637225879427699204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8637225879427699206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637225879427699204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: hearing-screening
+    name: Hearing Screening
+    slides:
+    - text: 'Today I will get my hearing checked. '
+      audioClip: {fileID: 8300000, guid: 3f3f5fef1c8601040b362faefdff2d57, type: 3}
+      sprite: {fileID: 21300000, guid: 5ed99eaa5f8a16c499df04558d08cb44, type: 3}
+    - text: 'The medical assistant will explain what will happen. '
+      audioClip: {fileID: 8300000, guid: 1058ae946edad114a86e2b76752e6b51, type: 3}
+      sprite: {fileID: 21300000, guid: b6891915c1f74fa48995bdbcad19b7be, type: 3}
+    - text: 'Then, they will put headphones on me.  '
+      audioClip: {fileID: 8300000, guid: ff2cee87097025a4dba2091180e40d7f, type: 3}
+      sprite: {fileID: 21300000, guid: 58c123f38114a3242a5b4e12a36e70b6, type: 3}
+    - text: 'I will play a hearing game where I have to listen to the beeps! It will
+        be a quick game to see how well I hear different sounds. '
+      audioClip: {fileID: 8300000, guid: cdfbcabf2c55e9c4fa77586bb88b5af9, type: 3}
+      sprite: {fileID: 21300000, guid: ef73a4cf9738e724a8588afb59baff58, type: 3}
+    - text: 'The beeps will not be too loud.  '
+      audioClip: {fileID: 8300000, guid: f1bcc0db71d301e409971cde3dea0d3f, type: 3}
+      sprite: {fileID: 21300000, guid: 73c3e345e367db54a8c5da825328bd69, type: 3}
+    - text: 'Some beeping sounds will sound high-pitched like a whistle or a mouse
+        squeak. '
+      audioClip: {fileID: 8300000, guid: 41e89e812fad3da41bcdadc8d32b74aa, type: 3}
+      sprite: {fileID: 21300000, guid: 917281ae88093184382fa3722d88872d, type: 3}
+    - text: 'Some beeping sounds will sound low-pitched like a drum or thunder. '
+      audioClip: {fileID: 8300000, guid: 8ac2b3e0f5a98fd42a9d5925f6c85e6d, type: 3}
+      sprite: {fileID: 21300000, guid: 3683977b018536645a5471ae8d630eb1, type: 3}
+    - text: 'I will let the medical assistant know when I hear the beeps. They will
+        tell me what to do. I may have to raise my hand or touch a toy when I hear
+        a beep. '
+      audioClip: {fileID: 8300000, guid: 936e57a6893cb7347a5164d25f2bc721, type: 3}
+      sprite: {fileID: 21300000, guid: d5e2d4b31c2dd3847a0f6d5ef6c5bd98, type: 3}
+    - text: I will be told when the hearing game is over.
+      audioClip: {fileID: 8300000, guid: d36bad7253e3f2c41bbb7f6ade635429, type: 3}
+      sprite: {fileID: 21300000, guid: 5b26747eac9f50d4caff807997e71f27, type: 3}
+    - text: I did a great job at my hearing test!
+      audioClip: {fileID: 8300000, guid: 0ae5933893762a1458369f6d86155da7, type: 3}
+      sprite: {fileID: 21300000, guid: 7813e69374a99ec46807e526ed4c26e3, type: 3}

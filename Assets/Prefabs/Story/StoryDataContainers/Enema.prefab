@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1979393674654393337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979393674654393338}
+  - component: {fileID: 1979393674654393339}
+  m_Layer: 5
+  m_Name: Enema
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1979393674654393338
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979393674654393337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1979393674654393339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979393674654393337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: enema
+    name: Enema
+    slides:
+    - text: 'I need to have an enema to help my stomach feel better. '
+      audioClip: {fileID: 8300000, guid: 031e082d3651934438a43d9a0a569d95, type: 3}
+      sprite: {fileID: 21300000, guid: 40640a45d537bb04a9f0bddbddea8280, type: 3}
+    - text: 'The nurse will put some jelly on the tip of the enema. '
+      audioClip: {fileID: 8300000, guid: fb6058570fe348f4b94b7720e45a876f, type: 3}
+      sprite: {fileID: 21300000, guid: 125a5fdca9b2b124f9fd56e57f6d5c27, type: 3}
+    - text: 'The nurse will tell me to take a deep breath. '
+      audioClip: {fileID: 8300000, guid: c6112346f0058d44a9e85f30dc715453, type: 3}
+      sprite: {fileID: 21300000, guid: 6524f4bad6705e044b0cca8725fabf29, type: 3}
+    - text: 'She will put the enema into my bottom. It is like a small tube. '
+      audioClip: {fileID: 8300000, guid: 9439d923556b08a4c81e68ced4d9d9ec, type: 3}
+      sprite: {fileID: 21300000, guid: 27143ae1063eca046ac430113098f8f2, type: 3}
+    - text: 'She will slowly push fluid into my bottom.  '
+      audioClip: {fileID: 8300000, guid: 2598e18db17f20f428baaf726c2311f4, type: 3}
+      sprite: {fileID: 21300000, guid: d815bfe8a60895a40bba5caa0093a163, type: 3}
+    - text: 'I may feel like I need to go to the bathroom. '
+      audioClip: {fileID: 8300000, guid: cf9ef809ef20b334380945dc94ce0171, type: 3}
+      sprite: {fileID: 21300000, guid: 4caa17cf5946c7249a6529690248f903, type: 3}
+    - text: 'I will take deep breaths and breathe out through my mouth to ease this
+        feeling. '
+      audioClip: {fileID: 8300000, guid: 694b38acaf0d5f043a05a89a99ed5252, type: 3}
+      sprite: {fileID: 21300000, guid: c710c9afca725e64a89e36bc971d4946, type: 3}
+    - text: 'It is important to tell the nurse if my stomach is hurting.  '
+      audioClip: {fileID: 8300000, guid: aee8a8af92879514fb7c3af028e99768, type: 3}
+      sprite: {fileID: 21300000, guid: b9d80be202e480b43a623046d0220b20, type: 3}
+    - text: When the fluid is all done going in, the nurse will remove the tube.
+        The nurse may hold my buttocks together. I will lie still for a few minutes.
+      audioClip: {fileID: 8300000, guid: bd1c7cfda4c1d8441a019b3a9d259b47, type: 3}
+      sprite: {fileID: 21300000, guid: b9985ebd84dd6b847843259905500b87, type: 3}
+    - text: 'The nurse will tell me when to go into the bathroom. '
+      audioClip: {fileID: 8300000, guid: 2d1eac65173c9ba4bb959bac69be4382, type: 3}
+      sprite: {fileID: 21300000, guid: 05b7969d9e383db498da572dd0bc2e63, type: 3}
+    - text: 'It is okay if I cannot make it to the bathroom. The nurse will help
+        clean it up. '
+      audioClip: {fileID: 8300000, guid: 8d39a78fad54c474dadf14346b5fddee, type: 3}
+      sprite: {fileID: 21300000, guid: 201070dd02a830244a2f58fe917676e7, type: 3}
+    - text: 'I am all done! Great job! '
+      audioClip: {fileID: 8300000, guid: e195a207aa87b0544b9ed2c18486d711, type: 3}
+      sprite: {fileID: 21300000, guid: 785b7d7b7f590fa4094642c0b9479512, type: 3}

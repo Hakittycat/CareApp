@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4674664677677881995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4674664677677881994}
+  - component: {fileID: 4674664677677881989}
+  m_Layer: 5
+  m_Name: Getting IV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4674664677677881994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674664677677881995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4674664677677881989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674664677677881995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: getting-iv
+    name: Getting an IV
+    slides:
+    - text: 'I am having an IV.  '
+      audioClip: {fileID: 8300000, guid: 3e235493118b5c249ac899446283c725, type: 3}
+      sprite: {fileID: 21300000, guid: a8ca3fcecc04b544db5c51be9906c230, type: 3}
+    - text: 'An IV is a skinny tube that looks like a small straw. '
+      audioClip: {fileID: 8300000, guid: a93d55d2d404d5949b8b6ba0ff18c26f, type: 3}
+      sprite: {fileID: 21300000, guid: 8e874785421f3064f9367f0c1fc26946, type: 3}
+    - text: 'It will be put in my skin and will give me medicine or water. '
+      audioClip: {fileID: 8300000, guid: 03facb10ff35b1342bdcda118b340117, type: 3}
+      sprite: {fileID: 21300000, guid: 67f624ae36f6be746a47a77aefa558a2, type: 3}
+    - text: I will lay in the bed. I will need to be still.
+      audioClip: {fileID: 8300000, guid: 7c8f73db0e3358841bfb487c74495982, type: 3}
+      sprite: {fileID: 21300000, guid: b13eb404196569246afdbb99ee83d40b, type: 3}
+    - text: 'The nurse may ask someone to come help me stay still. '
+      audioClip: {fileID: 8300000, guid: c3a8f2714895eda4db8fe487a26fad0f, type: 3}
+      sprite: {fileID: 21300000, guid: aaaeac36e8c506941a5f7cde9db64aab, type: 3}
+    - text: 'The nurse will put a rubber band on my arm. It will feel tight like
+        a hug. '
+      audioClip: {fileID: 8300000, guid: df751ebfe64055e44b2ec36ea4ed06c9, type: 3}
+      sprite: {fileID: 21300000, guid: 36a20e0ffb194a84f863d8d638a8337e, type: 3}
+    - text: The rubber band helps the nurse find my veins.
+      audioClip: {fileID: 8300000, guid: fe7e00423b99ffb43858f96987fac09d, type: 3}
+      sprite: {fileID: 21300000, guid: 733b8bdb6c1b9c14e9ca95932e42bd00, type: 3}
+    - text: 'The nurse will clean my skin with a pad. It will feel cold. '
+      audioClip: {fileID: 8300000, guid: e405d0a32f23170478bca42abe00e50c, type: 3}
+      sprite: {fileID: 21300000, guid: fe86a0491a195b347884495d92c52fd0, type: 3}
+    - text: The nurse will use a very small needle to put the IV into my skin. The
+        nurse will tell me before she does it.
+      audioClip: {fileID: 8300000, guid: b9376c39e90e33e4081b8958b850c38a, type: 3}
+      sprite: {fileID: 21300000, guid: 7dbf4db80aba9d445a61bf6b03be9274, type: 3}
+    - text: "I can take some deep breaths or count 1 \u2026 2 \u2026 3 \u2026 to
+        help me relax. "
+      audioClip: {fileID: 8300000, guid: a712a2e4fa4a8974bb9784884ed12f57, type: 3}
+      sprite: {fileID: 21300000, guid: ba180128ac2de844fa8c13d44f5fc269, type: 3}
+    - text: It may hurt a little but it will be over soon.
+      audioClip: {fileID: 8300000, guid: 746ad48d21ff73a4eae4c3566a8b5150, type: 3}
+      sprite: {fileID: 21300000, guid: dee3f082f7d6972479e92eb81c1f84bc, type: 3}
+    - text: The nurse will put tape over my skin to keep the IV in place.
+      audioClip: {fileID: 8300000, guid: 4d8380e0bf1ca954ba711b27f5fbba3e, type: 3}
+      sprite: {fileID: 21300000, guid: 98c5ec1cd5a757541a96a43bee9911e3, type: 3}
+    - text: 'She will connect the tube that looks like a straw. It does not hurt. '
+      audioClip: {fileID: 8300000, guid: 8229062bca4138c4f83b5b64f8de0507, type: 3}
+      sprite: {fileID: 21300000, guid: e69e021e3686beb4b88fe39765eef5ed, type: 3}
+    - text: The nurse will put a soft board under my arm or hand. It feels like a
+        pillow.
+      audioClip: {fileID: 8300000, guid: 419a4cb81d53c394f93326aaf44a9261, type: 3}
+      sprite: {fileID: 21300000, guid: c1dd6dbd788e0774db8df8e6d48550e8, type: 3}
+    - text: 'It will help keep my arm still. '
+      audioClip: {fileID: 8300000, guid: cfa37fdad84694842b7dc7ad6b05f5f6, type: 3}
+      sprite: {fileID: 21300000, guid: 5eff00f43880e264d9c1dd1abe320a20, type: 3}
+    - text: My IV is ready.
+      audioClip: {fileID: 8300000, guid: 30af67eff336bbe45a67efe2f1b3c8ed, type: 3}
+      sprite: {fileID: 21300000, guid: 4d88c2c4abda7f042a975377c5d3c54a, type: 3}
+    - text: 'I did a good job! '
+      audioClip: {fileID: 8300000, guid: 758dc94155d635844868ba4a4c5bd53a, type: 3}
+      sprite: {fileID: 21300000, guid: 1cd40d8bebe1d89439c738dc8e9f8d8e, type: 3}

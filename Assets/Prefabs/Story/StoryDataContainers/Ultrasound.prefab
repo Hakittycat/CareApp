@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5672499561796953025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5672499561796953026}
+  - component: {fileID: 5672499561796953027}
+  m_Layer: 5
+  m_Name: Ultrasound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5672499561796953026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5672499561796953025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5672499561796953027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5672499561796953025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: ultrasound
+    name: Ultrasound
+    slides:
+    - text: 'I will have an ultrasound. An ultrasound helps the doctor see inside
+        my body. '
+      audioClip: {fileID: 8300000, guid: 323db719bea6720439b409d945ad2ee8, type: 3}
+      sprite: {fileID: 21300000, guid: e8bee737d9788f34e9b62e462b7b5675, type: 3}
+    - text: It is a test that can help a doctor make me feel better if I am sick.
+      audioClip: {fileID: 8300000, guid: f1b99efd204b7e04f8e5d82ab0f1d7fd, type: 3}
+      sprite: {fileID: 21300000, guid: 8a603e57ae6b04948969948012d0dfab, type: 3}
+    - text: The room will be dark so the ultrasound person can see the pictures.
+      audioClip: {fileID: 8300000, guid: 6ec82c483bc65af498bf9504a150276f, type: 3}
+      sprite: {fileID: 21300000, guid: 5070de820af629045899d237e1575110, type: 3}
+    - text: I will lay on my back.
+      audioClip: {fileID: 8300000, guid: 5966aeea9eeafd141837e1e7fe96df29, type: 3}
+      sprite: {fileID: 21300000, guid: 3f98d5e25a5449c409fea97b5af95c16, type: 3}
+    - text: "The ultrasound person will tell me what is going to happen before she
+        starts. She will show me what it\u2019s like before it touches me."
+      audioClip: {fileID: 8300000, guid: 38d5218a85e35174fb42b59717a92dd0, type: 3}
+      sprite: {fileID: 21300000, guid: df24faa160624524ea481abf80dffa21, type: 3}
+    - text: The ultrasound person will spread gel on my stomach. Sometimes the gel
+        is cold.
+      audioClip: {fileID: 8300000, guid: 0555ce114151f894e96a6e79f0c41d31, type: 3}
+      sprite: {fileID: 21300000, guid: b1764f423c7f61348971128af07e53ed, type: 3}
+    - text: The ultrasound person will push the plastic wand on my body.
+      audioClip: {fileID: 8300000, guid: 342a06f3673cd874d871dd57ff51e6b3, type: 3}
+      sprite: {fileID: 21300000, guid: d62928b3aaf33ca41aa5efb2acf36788, type: 3}
+    - text: She will move it back and forth. It will not hurt.
+      audioClip: {fileID: 8300000, guid: 03a74650c02843b4c951bd5fdaec6475, type: 3}
+      sprite: {fileID: 21300000, guid: 009203e57c2d4c344925480d5e3a9a30, type: 3}
+    - text: I can look at the pictures on the machine.
+      audioClip: {fileID: 8300000, guid: 3d41f4ffa38287740971a4004ada0fc5, type: 3}
+      sprite: {fileID: 21300000, guid: c90467cb72ec9de4fbda97e76146dd87, type: 3}
+    - text: The ultrasound person will clean off my body when it is over.
+      audioClip: {fileID: 8300000, guid: 49c8390c562865c46b48b82007fbd973, type: 3}
+      sprite: {fileID: 21300000, guid: a7c0ec0cbff195447bb0abbc9b984ef4, type: 3}
+    - text: My ultrasound is over. I did a good job!
+      audioClip: {fileID: 8300000, guid: 36ba5bfaf0ece2a4ba4784e09d38d002, type: 3}
+      sprite: {fileID: 21300000, guid: 02b8a36b1bd4c99498dd77a16c11ec00, type: 3}

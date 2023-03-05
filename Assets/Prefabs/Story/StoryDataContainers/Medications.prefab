@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1726513912605026710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1726513912605026711}
+  - component: {fileID: 1726513912605026708}
+  m_Layer: 5
+  m_Name: Medications
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1726513912605026711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726513912605026710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1726513912605026708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726513912605026710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: medications
+    name: Medications
+    slides:
+    - text: I am in the hospital because I am sick or hurt.
+      audioClip: {fileID: 8300000, guid: 5d705cf96de5e2e4ca614df4f8af8a34, type: 3}
+      sprite: {fileID: 21300000, guid: 9cfeb64de50195e4f94d927dbe19e402, type: 3}
+    - text: The nurse may give me medicine to help me feel better.
+      audioClip: {fileID: 8300000, guid: 8925f11ae5b02a849b1c7c3797fa5ae0, type: 3}
+      sprite: {fileID: 21300000, guid: 1abb0192bb6ffd84e95786a140c87839, type: 3}
+    - text: The medicine may be liquid like juice. It will be in a syringe or a small
+        cup.
+      audioClip: {fileID: 8300000, guid: 5199c6c7e825a10478e375f260d57c84, type: 3}
+      sprite: {fileID: 21300000, guid: d9068dad88ac9734da5304c33bf2ffbf, type: 3}
+    - text: Sometimes it may be a pill.
+      audioClip: {fileID: 8300000, guid: 773b1c6aefaba834883e3e1e50fc4198, type: 3}
+      sprite: {fileID: 21300000, guid: 3a2014ded5174ea40860b60b8dfeea9f, type: 3}
+    - text: The medicine may taste sweet like cherry or cotton candy.
+      audioClip: {fileID: 8300000, guid: 2f2699638a626a449bde69eb1d78575e, type: 3}
+      sprite: {fileID: 21300000, guid: 4966ed8af7c177040b869563d851cabe, type: 3}
+    - text: Sometimes the medicine may taste a little yucky.
+      audioClip: {fileID: 8300000, guid: 551cc6b83d9ff774296d07f86325bbd2, type: 3}
+      sprite: {fileID: 21300000, guid: f30ab4f0e993e05429b49c78f0ad4f1a, type: 3}
+    - text: It is important to stay calm.
+      audioClip: {fileID: 8300000, guid: b98ad4c108bfc674f8f10830477269b3, type: 3}
+      sprite: {fileID: 21300000, guid: 889949f2a226ea14e962f8b6def7f634, type: 3}
+    - text: I must sit up nice and tall.
+      audioClip: {fileID: 8300000, guid: 3ae022bfa49d0124f9b5867879baaf15, type: 3}
+      sprite: {fileID: 21300000, guid: fcc6261a45aae2e47b2dccb9e30a5c73, type: 3}
+    - text: 'I will put the medicine in my mouth and swallow. '
+      audioClip: {fileID: 8300000, guid: 9c42c527a64027b4c8c70118b803cfd9, type: 3}
+      sprite: {fileID: 21300000, guid: e5a4ce11da7f1424a955e428aff35ce8, type: 3}
+    - text: I can take a drink to help the medicine go down.
+      audioClip: {fileID: 8300000, guid: eb5d79a9dde4cb64da4ed4ee350b9a89, type: 3}
+      sprite: {fileID: 21300000, guid: 7b061cf7e5062534fb369cb55aa17a8b, type: 3}
+    - text: I am finished! The medicine will help me feel better!
+      audioClip: {fileID: 8300000, guid: 54165dc944b64204a808d5eb928f3ef9, type: 3}
+      sprite: {fileID: 21300000, guid: 4cd641cb85e4eec4bae66c66f0f4d1ba, type: 3}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2646999065736373063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2646999065736373060}
+  - component: {fileID: 2646999065736373061}
+  m_Layer: 5
+  m_Name: NG Tube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2646999065736373060
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2646999065736373063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2646999065736373061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2646999065736373063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: ng-tube
+    name: NG Tube
+    slides:
+    - text: I need to have a NG tube.
+      audioClip: {fileID: 8300000, guid: c1602483e4f766242a9e319cf45cd43b, type: 3}
+      sprite: {fileID: 21300000, guid: 5e7c2d795e45b2046b51b7c0db38a789, type: 3}
+    - text: 'The NG tube is to help give me food and nutrition to stay healthy when
+        I cannot eat or swallow. '
+      audioClip: {fileID: 8300000, guid: 147f07d234cfe6146b03ba5ae11a104e, type: 3}
+      sprite: {fileID: 21300000, guid: 52e35bcc39ccbcd4d8d1a828501dd45c, type: 3}
+    - text: 'The nurse will ask me to sit very still. She may ask someone to help
+        me stay still. '
+      audioClip: {fileID: 8300000, guid: 9de4e9563d1674142bbb7e32e282a966, type: 3}
+      sprite: {fileID: 21300000, guid: 048e624bcbf53f54f97e3c644eaf84b7, type: 3}
+    - text: I may get pillows to help support my head and neck.
+      audioClip: {fileID: 8300000, guid: 92e5fdd8c046cee45914fc538776addd, type: 3}
+      sprite: {fileID: 21300000, guid: 506f821734b87b14587a3b607ffede76, type: 3}
+    - text: The nurse will tell me when she is going to start. She will gently insert
+        a tube through my nose, throat, and into my stomach.
+      audioClip: {fileID: 8300000, guid: 19e28a91d05a2c94db02c887ec47c45b, type: 3}
+      sprite: {fileID: 21300000, guid: b7e6bfabbfa2f564e988c01ea1c57e30, type: 3}
+    - text: 'The tube is very tiny and soft. '
+      audioClip: {fileID: 8300000, guid: 23823b59143be5946878d5d90080e530, type: 3}
+      sprite: {fileID: 21300000, guid: 40e4f14a2afb604409acfd7801a28d7f, type: 3}
+    - text: It will feel uncomfortable and I will feel like I need to cough or gag.
+        I cannot pull it out.
+      audioClip: {fileID: 8300000, guid: d0ccb7c0ce90f57468b6ba3961371502, type: 3}
+      sprite: {fileID: 21300000, guid: 4062e9872d110e443af1ded98b00bdb6, type: 3}
+    - text: It is very important to listen to the nurse and swallow when she tells
+        me to. Swallowing will help the tube go down easier. I may be allowed to
+        drink water.
+      audioClip: {fileID: 8300000, guid: 4b2ecc413c05c94409ef58a068b641ea, type: 3}
+      sprite: {fileID: 21300000, guid: 687fe6f6451b3ff4ead3db07579f54c9, type: 3}
+    - text: 'The nurse will check to make sure the tube is in the right place. '
+      audioClip: {fileID: 8300000, guid: f0efdf8c2f19bba41ba4d891edfd9d4b, type: 3}
+      sprite: {fileID: 21300000, guid: 9f949ec692536e04a8ed305b3950301e, type: 3}
+    - text: She will tape the tube to my face, so it will stay in place.
+      audioClip: {fileID: 8300000, guid: 0a2a1e36f835d0d4586357a159c59ebc, type: 3}
+      sprite: {fileID: 21300000, guid: 8f2ee08288d197044bf0e9eeb16d842a, type: 3}
+    - text: 'I am all done. I did a great job!  '
+      audioClip: {fileID: 8300000, guid: 4d2d458eb36586642a9677ee3dcdf869, type: 3}
+      sprite: {fileID: 21300000, guid: 34d93adf4cee8324a9d4c9366f14a4ee, type: 3}

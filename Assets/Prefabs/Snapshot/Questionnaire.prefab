@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4749486328528645498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4749486328528645499}
+  - component: {fileID: 4749486328528645496}
+  m_Layer: 5
+  m_Name: Questionnaire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4749486328528645499
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4749486328528645498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4749486328528645496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4749486328528645498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b6cc0a8fe2a40c2bb37f031ee20d03f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sections:
+  - sectionName: General Information
+    questions:
+    - question: What is your name?
+      description: Please type out the patient's first and last name in the field
+        below.
+      input: {fileID: 0}
+      key: name
+      position: 0
+    - question: What is your last name?
+      description: Please type in your last name below
+      input: {fileID: 0}
+      key: last_name
+      position: 1
+    - question: What is your gender?
+      description: Please type the gender that the patient identifies as.
+      input: {fileID: 0}
+      key: patient_gender
+      position: 2
+    - question: What is your birthday?
+      description: Please use the date selector below to state your birth date.
+      input: {fileID: 0}
+      key: patient_birth_date
+      position: 3
+    - question: Who is filling out the form?
+      description: Please state the full name of the person filling out this form.
+      input: {fileID: 0}
+      key: form_author
+      position: 4
+    - question: What is your relationship to the patient?
+      description: Please state the relationship you have to the patient.
+      input: {fileID: 0}
+      key: form_author_relationship
+      position: 5
+    - question: What is the patient's functioning age?
+      description: At what age do you think {patient} is functioning?
+      input: {fileID: 0}
+      key: patient_functioning_age
+      position: 6
+  - sectionName: How To Tell Me Something
+    questions:
+    - question: Use yes or no questions?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: yes_no_questions
+      position: 0
+    - question: Use short verbal phrases?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: short_verbal_phrases
+      position: 1
+    - question: Use pictures or visual support?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: pictures_visual_support
+      position: 2
+    - question: Use physical touch or guidance?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: physical_touch_guidance
+      position: 3
+    - question: Use videos?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: videos
+      position: 4
+    - question: Use multiple choice questions?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: multiple_choice_questions
+      position: 5
+    - question: Use sentences?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: sentence_or_sentences
+      position: 6
+    - question: Use physical guidance (hand over hand)?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: physical_guidance
+      position: 7
+    - question: Use gestures?
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: gestures
+      position: 8
+    - question: Communication device? (If none state N/A)
+      description: Should hospital personnel use this method to communicate with
+        {patient}?
+      input: {fileID: 0}
+      key: gestures
+      position: 9
+    - question: Other
+      description: Are there any other ways {patient} likes to communicate?
+      input: {fileID: 0}
+      key: how_to_tell_me_something_other
+      position: 10
+  - sectionName: How I Share Information
+    questions:
+    - question: Using words?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: using_words
+      position: 0
+    - question: Sign language?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: sign_language
+      position: 1
+    - question: Writing?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: writing
+      position: 2
+    - question: Communication board?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: communication_board
+      position: 3
+    - question: Communication device?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: communication_device
+      position: 4
+    - question: Echolalic or repeating words/sounds?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: repeating_words_sounds
+      position: 5
+    - question: Typing or texting?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: typing_or_texting
+      position: 6
+    - question: Pointing or gesturing?
+      description: Does {patient} use this method to communicate with others?
+      input: {fileID: 0}
+      key: pointing_or_gesturing
+      position: 7
+    - question: Other
+      description: Is there any other way {patient} likes to share information?
+      input: {fileID: 0}
+      key: share_other
+      position: 9
+    - question: How do you tell us you are in pain?
+      description: How does {patient} usually communicate pain?
+      input: {fileID: 0}
+      key: share_pain
+      position: 8
+  - sectionName: Comforts and Likes
+    questions:
+    - question: Food or drink
+      description: What food or drink does {patient} like?
+      input: {fileID: 0}
+      key: fun_food_drink
+      position: 0
+    - question: Toys
+      description: What is {patient}'s favorite toy?
+      input: {fileID: 0}
+      key: fun_toy
+      position: 1
+    - question: Music
+      description: What is {patient}'s favorite music?
+      input: {fileID: 0}
+      key: fun_music
+      position: 2
+    - question: Comfort Item
+      description: What is {patient}'s comfort item?
+      input: {fileID: 0}
+      key: fun_comfort_item
+      position: 3
+    - question: Provide space
+      description: Does {patient} find space comforting?
+      input: {fileID: 0}
+      key: fun_provide_space
+      position: 4
+    - question: Attempt to engage with preferred item?
+      description: Would {patient} like it if they were engaged with their preferred
+        item?
+      input: {fileID: 0}
+      key: fun_engage_with_item
+      position: 5
+    - question: Technology
+      description: What type of technology does {patient} like?
+      input: {fileID: 0}
+      key: fun_technology
+      position: 6
+    - question: Sensory items/activities
+      description: What type of sensory items/activities does {patient} like?
+      input: {fileID: 0}
+      key: fun_technology
+      position: 7
+    - question: Special interests
+      description: Does {patient} have any special interests?
+      input: {fileID: 0}
+      key: fun_special_interests
+      position: 8
+    - question: Other
+      description: Does {patient} have any other things that they like/find comforting?
+      input: {fileID: 0}
+      key: fun_other
+      position: 9
+  - sectionName: Things I Don't Like
+    questions:
+    - question: Changing into hospital gown
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_hospital_gown
+      position: 0
+    - question: Measuring blood pressure
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_measuring_blood_pressure
+      position: 1
+    - question: Having wires taped to body
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_having_wires_taped
+      position: 2
+    - question: Things being placed on face
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_things_placed_on_face
+      position: 3
+    - question: Lying still (for xrays, ultrasound, MRI, CT)
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_lying_still
+      position: 4
+    - question: Ear or throat exam
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_ear_or_throat_exam
+      position: 5
+    - question: Being poked by a needle
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_being_poked_by_needles
+      position: 6
+    - question: Having wounds cleaned and fixed
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_wounds_cleaned
+      position: 7
+    - question: Swallowing pills
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_swallowing_pills
+      position: 8
+    - question: Taking medicine in general
+      description: Does {patient} dislike the item/procedure above?
+      input: {fileID: 0}
+      key: dislikes_taking_medicine
+      position: 9
+    - question: Other
+      description: Are there any other things {patient} does not like?
+      input: {fileID: 0}
+      key: dislikes_other
+      position: 10
+  - sectionName: Physical Exam
+    questions:
+    - question: Communicate with patient before doing anything
+      description: Is this one of the best ways to help {patient} get through a physical
+        exam?
+      input: {fileID: 0}
+      key: physical_exam_communication
+      position: 0
+    - question: List or count tasks that will be done (1-look at eyes, 2-look in
+        ears, etc)
+      description: Is this one of the best ways to help {patient} get through a physical
+        exam?
+      input: {fileID: 0}
+      key: physical_exam_list_tasks
+      position: 1
+    - question: Demonstrate on a family member
+      description: Is this one of the best ways to help {patient} get through a physical
+        exam?
+      input: {fileID: 0}
+      key: physical_exam_demonstrate
+      position: 2
+    - question: Allow the {patient} to touch the instruments (i.e. stethoscope, blood
+        pressure cuff)
+      description: Is this one of the best ways to help {patient} get through a physical
+        exam?
+      input: {fileID: 0}
+      key: physical_exam_touch_instruments
+      position: 3
+    - question: Hide instruments until they are needed
+      description: Is this one of the best ways to help {patient} get through a physical
+        exam?
+      input: {fileID: 0}
+      key: physical_exam_hide_instruments_until_needed
+      position: 4
+    - question: Direct patient's attention to something else
+      description: Is this one of the best ways to help {patient} get through a physical
+        exam?
+      input: {fileID: 0}
+      key: physical_exam_direct_attention_to_something_else
+      position: 5
+    - question: Other
+      description: Are there any other ways to help {patient} during a physical exam?
+      input: {fileID: 0}
+      key: physical_exam_other
+      position: 6
+  - sectionName: Annoying Stuff
+    questions:
+    - question: Noises
+      description: What kind of noises does {patient} find annoying?
+      input: {fileID: 0}
+      key: annoying_noises
+      position: 0
+    - question: Lights
+      description: What kind of lights does {patient} find annoying?
+      input: {fileID: 0}
+      key: annoying_lights
+      position: 1
+    - question: Colors
+      description: What kind of colors bother {patient}?
+      input: {fileID: 0}
+      key: annoying_colors
+      position: 2
+    - question: Fragrances/smells
+      description: What kind of fragrances or smells does {patient} find annoying?
+      input: {fileID: 0}
+      key: annoying_smells
+      position: 3
+    - question: 'Tastes '
+      description: What kind of tastes bother {patient}?
+      input: {fileID: 0}
+      key: annoying_tastes
+      position: 4
+    - question: Textures
+      description: What kind of textures bother {patient}?
+      input: {fileID: 0}
+      key: annoying_textures
+      position: 5
+    - question: Crowds
+      description: Do crowds bother {patient}?
+      input: {fileID: 0}
+      key: annoying_crowds
+      position: 6
+    - question: Other
+      description: Are there any other things that bother {patient} that we should
+        know about?
+      input: {fileID: 0}
+      key: annoying_other
+      position: 7
+  - sectionName: Don't Touch Me There
+    questions:
+    - question: Face
+      description: Does {patient} not like being touched on the body part above?
+      input: {fileID: 0}
+      key: dont_touch_face
+      position: 0
+    - question: Head
+      description: Does {patient} not like being touched on the body part above?
+      input: {fileID: 0}
+      key: dont_touch_head
+      position: 1
+    - question: Arms
+      description: Does {patient} not like being touched on the body part above?
+      input: {fileID: 0}
+      key: dont_touch_arms
+      position: 2
+    - question: Body
+      description: Does {patient} not like being touched on the body part above?
+      input: {fileID: 0}
+      key: dont_touch_body
+      position: 3
+    - question: Legs
+      description: Does {patient} not like being touched on the body part above?
+      input: {fileID: 0}
+      key: dont_touch_legs
+      position: 4
+    - question: Other
+      description: Is there any other place that {patient} doesn't like to be touched?
+      input: {fileID: 0}
+      key: dont_touch_other
+      position: 5
+  - sectionName: How I Show I'm Upset
+    questions:
+    - question: Making sounds or nosies
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_sounds
+      position: 0
+    - question: Facial expressions (e.g. frowning)
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_facial_expressions
+      position: 1
+    - question: Body movements (e.g. pacing, rocking, flapping, etc)
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_body_movements
+      position: 2
+    - question: Self-injurious behaviors
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_self_harm
+      position: 3
+    - question: Being aggressive towards objects
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_aggressive_towards_objects
+      position: 4
+    - question: Being aggressive towards others
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_aggressive_towards_others
+      position: 5
+    - question: Running away
+      description: Does {patient} use the method above to convey that they are upset?
+      input: {fileID: 0}
+      key: show_upset_running_away
+      position: 6
+    - question: Other
+      description: Are there any other things that {patient} does to show they are
+        upset?
+      input: {fileID: 0}
+      key: show_other
+      position: 7
+  - sectionName: Things That Scare Me
+    questions:
+    - question: Things that are unpleasant
+      description: Are there any things that {patient} might find unpleasant (e.g.
+        trigger words)?
+      input: {fileID: 0}
+      key: things_that_scare_me
+      position: 0
+  - sectionName: Other Things You Should Know
+    questions:
+    - question: Any other concerns you have?
+      description: Are there any concerns related to behaviors ans safety that doctors
+        and nurses should know about (e.g. eating items that aren't food, pulling
+        out tubes or IVs)?
+      input: {fileID: 0}
+      key: other_things_you_should_know
+      position: 0
+  - sectionName: Restraints
+    questions:
+    - question: What is {patient}'s reaction to restraints?
+      description: On a scale from 1 - 5 (1 being not bothered, and 5 being agitated/combative/inconsolable)
+        how does {patient} feel about restraints?
+      input: {fileID: 0}
+      key: restraint_reaction
+      position: 0
+  - sectionName: Medications
+    questions:
+    - question: Medications that helped
+      description: Are there any medications that have worked well in the past to
+        calm {patient} down?
+      input: {fileID: 0}
+      key: medications_helped
+      position: 0
+    - question: Medications that did not help
+      description: Are there any medications that  did not work well in the past
+        to calm {patient} down? What happened?
+      input: {fileID: 0}
+      key: medications_did_not_help
+      position: 1
+  - sectionName: What Im Good At
+    questions:
+    - question: What are some things {patient} is good at?
+      description: Please provide any information about {patient}'s strengths.
+      input: {fileID: 0}
+      key: what_im_good_at
+      position: 0
+  - sectionName: Other Facts
+    questions:
+    - question: Provide any information you think would be useful to {patient}'s
+        nurses and doctors.
+      description: These may include speaking softly, avoiding large crowds in one
+        room, keep doors closes, and avoiding things that could frighten {patient}.
+      input: {fileID: 0}
+      key: other_facts
+      position: 0
+  - sectionName: How I Cope
+    questions:
+    - question: How do you cope?
+      description: What works best for helping {patient} adjust to changes in routine?
+      input: {fileID: 0}
+      key: how_i_cope
+      position: 0
+  - sectionName: How I Am Special
+    questions:
+    - question: Are there any special meanings to some of {patient}'s behavior or
+        sounds they make?
+      description: If no, just type no in the line below. If yes, please state what
+        behaviors or sounds have significance, and their meaning.
+      input: {fileID: 0}
+      key: how_i_am_special
+      position: 0
+  - sectionName: Keeping Track of Time
+    questions:
+    - question: Clock or watch
+      description: Does {patient} use the method above to keep track of how long
+        something has been going on?
+      input: {fileID: 0}
+      key: tracking_time_clock_or_watch
+      position: 0
+    - question: Timer
+      description: Does {patient} use the method above to keep track of how long
+        something has been going on?
+      input: {fileID: 0}
+      key: tracking_time_timer
+      position: 1
+    - question: Picture schedule
+      description: Does {patient} use the method above to keep track of how long
+        something has been going on?
+      input: {fileID: 0}
+      key: tracking_time_picture_schedule
+      position: 2
+    - question: Counting out loud
+      description: Does {patient} use the method above to keep track of how long
+        something has been going on?
+      input: {fileID: 0}
+      key: tracking_time_counting
+      position: 3
+    - question: Other
+      description: Is there another way {patient} likes to keep track of time?
+      input: {fileID: 0}
+      key: tracking_time_other
+      position: 4
+  - sectionName: Tools That Help
+    questions:
+    - question: Communication board
+      description: Has {patient} found the above item a useful tool?
+      input: {fileID: 0}
+      key: tools_that_helped_communication_board
+      position: 0
+    - question: Visual supports (e.g. first-then, schedule)
+      description: Has {patient} found the above item a useful tool?
+      input: {fileID: 0}
+      key: tools_that_helped_visual_supports
+      position: 1
+    - question: Social stories
+      description: Has {patient} found the above item a useful tool?
+      input: {fileID: 0}
+      key: tools_that_helped_social_stories
+      position: 2
+    - question: Token boards
+      description: Has {patient} found the above item a useful tool?
+      input: {fileID: 0}
+      key: tools_that_helped_token_boards
+      position: 3
+    - question: Sensory toys
+      description: Has {patient} found the above item a useful tool?
+      input: {fileID: 0}
+      key: tools_that_helped_sensory_toys
+      position: 4
+    - question: Other
+      description: What other tools has {patient} found useful?
+      input: {fileID: 0}
+      key: tools_that_helped_other
+      position: 5

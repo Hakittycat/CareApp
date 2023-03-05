@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8070830385152864642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070830385152864669}
+  - component: {fileID: 8070830385152864668}
+  m_Layer: 5
+  m_Name: Nebulizer Treatment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8070830385152864669
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070830385152864642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8070830385152864668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070830385152864642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: nebulizer-treatment
+    name: Nebulizer Treatment
+    slides:
+    - text: 'I am having trouble breathing and may be coughing a lot. '
+      audioClip: {fileID: 8300000, guid: e290203691be6714499ece58633fce7e, type: 3}
+      sprite: {fileID: 21300000, guid: c0b4a68464d376f4e8ba380d998dc41a, type: 3}
+    - text: 'I will need a breathing treatment.  '
+      audioClip: {fileID: 8300000, guid: 700d99bd7ea993c429484123b4ac2ab3, type: 3}
+      sprite: {fileID: 21300000, guid: 15252f51b33b4f146b8c1d6c6fa0a217, type: 3}
+    - text: A nebulizer is a machine that makes a mist with the medicine in it.
+      audioClip: {fileID: 8300000, guid: f755e53bb021c234b906beaecb02de89, type: 3}
+      sprite: {fileID: 21300000, guid: 202e7af1ed0075540bb78668ce4e0410, type: 3}
+    - text: The machine has long tubing that connects to a mask.
+      audioClip: {fileID: 8300000, guid: 2cdcaf1b15df07e4cb1e58c76037774c, type: 3}
+      sprite: {fileID: 21300000, guid: dbc70a2fd3166b84e84fe81e71ad0497, type: 3}
+    - text: The nurse will put a mask on me. Sometimes the mask is fun and looks
+        like an animal!
+      audioClip: {fileID: 8300000, guid: 4dcdaa2a4661a9c448cd277fca931337, type: 3}
+      sprite: {fileID: 21300000, guid: a257ae2ff1d1473469f2a09aa94381ac, type: 3}
+    - text: Sometimes I may have a mouth piece instead that I will need to put between
+        my teeth.
+      audioClip: {fileID: 8300000, guid: b9dc93a02c230884bb3017907c17286c, type: 3}
+      sprite: {fileID: 21300000, guid: 372da1017465923459c683eaa2206743, type: 3}
+    - text: She will put the medicine into the breathing treatment and turn it on.
+        The breathing treatment may sound loud.
+      audioClip: {fileID: 8300000, guid: 82e15c4512b25ac4a9f48566c9ce8025, type: 3}
+      sprite: {fileID: 21300000, guid: 992d7b3a84406be4782c38fa8019e756, type: 3}
+    - text: 'When I breathe the mist in, the medicine will go deep in my lungs. '
+      audioClip: {fileID: 8300000, guid: af057545cec7799468b80d11ea501abc, type: 3}
+      sprite: {fileID: 21300000, guid: 780e91c16937d72498bb33b50dc9d5cd, type: 3}
+    - text: The mist is not hot like the steam I see when someone is cooking even
+        though it looks like that.
+      audioClip: {fileID: 8300000, guid: f115732d524d2304ea8deaa0415438d2, type: 3}
+      sprite: {fileID: 21300000, guid: 009df0ee7caf3a14f98c39af55b7d7f7, type: 3}
+    - text: 'It is important that I take deep breaths. '
+      audioClip: {fileID: 8300000, guid: 8d7b4a35d838e0240a5ece5d417ee6c7, type: 3}
+      sprite: {fileID: 21300000, guid: 31faf7930b9d5ae4ba0e99e40e1afc26, type: 3}
+    - text: That makes it easier to get the medicine I need so that I can feel better.
+      audioClip: {fileID: 8300000, guid: 2f393bfd95f5f6244aa32155979a9fad, type: 3}
+      sprite: {fileID: 21300000, guid: 31faf7930b9d5ae4ba0e99e40e1afc26, type: 3}
+    - text: 'I can look at a book or watch the TV while I am getting my treatment. '
+      audioClip: {fileID: 8300000, guid: d61e040210e68f2459f965b5a6af795c, type: 3}
+      sprite: {fileID: 21300000, guid: 6ad3404f70905504f92affb7cb39a839, type: 3}
+    - text: 'The nurse will tell me when the breathing treatment is out of medicine. '
+      audioClip: {fileID: 8300000, guid: 206c5e61a20650246ae9b5ae898790f1, type: 3}
+      sprite: {fileID: 21300000, guid: 2ed4be0c104572e41a73bc30ccdb5ae8, type: 3}
+    - text: 'I can breathe easier when it is over. I did a great job!  '
+      audioClip: {fileID: 8300000, guid: 12340af7cdd1a2a4ba88fad922ce0dfb, type: 3}
+      sprite: {fileID: 21300000, guid: 009cfd46c56d26143845b1b9bb155380, type: 3}

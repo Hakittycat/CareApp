@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6277179428677190969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6277179428677190950}
+  - component: {fileID: 6277179428677190951}
+  m_Layer: 5
+  m_Name: Blood Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6277179428677190950
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277179428677190969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6277179428677190951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277179428677190969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: blood-test
+    name: Blood Test
+    slides:
+    - text: I need to have blood drawn.
+      audioClip: {fileID: 8300000, guid: ae44ee28a5375b841b46f6240e8fa05e, type: 3}
+      sprite: {fileID: 21300000, guid: ad73f775b9cb181439c6ce96dc528445, type: 3}
+    - text: The blood sample will help my doctor to learn more about my body so I
+        can feel better.
+      audioClip: {fileID: 8300000, guid: b2c753bd548a14947b232aa43b92e0e4, type: 3}
+      sprite: {fileID: 21300000, guid: faa21d9fb02bd0840a66dd9c1f0ed095, type: 3}
+    - text: I will sit in a chair and I will need to be very still. The nurse may
+        ask someone to come help me stay still.
+      audioClip: {fileID: 8300000, guid: 1902af9c693ac9a459368cad35b8bcf0, type: 3}
+      sprite: {fileID: 21300000, guid: d1ce18a5109e93745987895decab69ee, type: 3}
+    - text: The nurse will put a rubberband on my arm. It will feel tight like a
+        hug.
+      audioClip: {fileID: 8300000, guid: 5be4bc5fdc249d7499c4ab4bd10a73b8, type: 3}
+      sprite: {fileID: 21300000, guid: f62d4a32a7255e841898d24ab3ca32a8, type: 3}
+    - text: The rubberband helps the nurse find my veins.
+      audioClip: {fileID: 8300000, guid: 1ff90364ad0147c45ba92a948a81c29a, type: 3}
+      sprite: {fileID: 21300000, guid: 2e0a37293e973fb40aba0825717587d5, type: 3}
+    - text: The nurse will clean my skin with a pad. It will feel cold.
+      audioClip: {fileID: 8300000, guid: f17cef5f72084d94191b147a3a3eb1db, type: 3}
+      sprite: {fileID: 21300000, guid: 74168d1f96e8cf244a97ac4c951d9aae, type: 3}
+    - text: The nurse will use a very small needle in my skin. The nurse will tell
+        me before she does it.
+      audioClip: {fileID: 8300000, guid: e10a1ae007e95664bb4fe101d01c9869, type: 3}
+      sprite: {fileID: 21300000, guid: 609d202adfd75fa479e98a56b9cfd3e4, type: 3}
+    - text: I can take some deep breaths or count 1, 2, 3, to help me relax. It may
+        hurt a little but it will be over soon.
+      audioClip: {fileID: 8300000, guid: 49136a9e3b6195e4399e91eff13b8c3c, type: 3}
+      sprite: {fileID: 21300000, guid: 7a85b4f0b26a56340a2697d45717d9a9, type: 3}
+    - text: The nurse will add tubes to the needle to collect the blood.
+      audioClip: {fileID: 8300000, guid: 185158af6981fc54f9ecbdcca98215c7, type: 3}
+      sprite: {fileID: 21300000, guid: a875f05848c99a34ca149357851d1325, type: 3}
+    - text: The tubes come in different colors. What colors do you see?
+      audioClip: {fileID: 8300000, guid: c485aeac40752d446b778e2debf600a8, type: 3}
+      sprite: {fileID: 21300000, guid: bb0600a85d6900646b2d4c166dd1ce6f, type: 3}
+    - text: She may remove the rubberband from my arm with the needle still in my
+        arm. When the nurse is finished, she will remove the needle.
+      audioClip: {fileID: 8300000, guid: 545d949b48f12e04da0ecedf2571161a, type: 3}
+      sprite: {fileID: 21300000, guid: 22d899621f6a4ed41be685d72a27f162, type: 3}
+    - text: She will place a piece of gauze on my arm and hold it down tight.
+      audioClip: {fileID: 8300000, guid: 1784b5506d9810247bd0db43adb7e774, type: 3}
+      sprite: {fileID: 21300000, guid: 0ce8cb3f785ce1046b03b3ac9a7bd0c0, type: 3}
+    - text: I will get a bandaid on my arm when I am finished.
+      audioClip: {fileID: 8300000, guid: 63920439030db5a448da4ca002b28540, type: 3}
+      sprite: {fileID: 21300000, guid: 5513d6dd36935694bad3c4ff6cedb246, type: 3}
+    - text: I did a good job!
+      audioClip: {fileID: 8300000, guid: ccc2929cae5265d4ba58ca6ada2a319b, type: 3}
+      sprite: {fileID: 21300000, guid: 493ddb32405897442887fedd675c3eb0, type: 3}

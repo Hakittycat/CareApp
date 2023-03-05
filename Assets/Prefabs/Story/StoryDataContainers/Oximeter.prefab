@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9207051932364571123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9207051932364571122}
+  - component: {fileID: 9207051932364571133}
+  m_Layer: 5
+  m_Name: Oximeter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9207051932364571122
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207051932364571123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9207051932364571133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207051932364571123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: oximeter
+    name: Oximeter
+    slides:
+    - text: 'A finger oximeter is a little machine that goes on my finger. '
+      audioClip: {fileID: 8300000, guid: fdb039a443bd63646b86b07ca3d162a4, type: 3}
+      sprite: {fileID: 21300000, guid: 86c7627b8b9e9464594f68826efc8ea2, type: 3}
+    - text: 'It is used to help doctors measure how much oxygen is in my blood.  '
+      audioClip: {fileID: 8300000, guid: b899ab9a528f31246af89cff1ff99382, type: 3}
+      sprite: {fileID: 21300000, guid: 75bd45995038332478b4a630fedac68f, type: 3}
+    - text: 'A long, thin wire is attached to a monitor. This wire connects to a
+        probe or sensor.  '
+      audioClip: {fileID: 8300000, guid: 00356c5b4dcd2f54d9e96128922969a1, type: 3}
+      sprite: {fileID: 21300000, guid: 027fc9fedcfc2554a92d4c229d7fd461, type: 3}
+    - text: 'A nurse will place the probe on my finger using a small clip or bandage. '
+      audioClip: {fileID: 8300000, guid: a0796ac692424a048b99df96bb8d126a, type: 3}
+      sprite: {fileID: 21300000, guid: 8dd46b46f3856be45a913b0322012494, type: 3}
+    - text: It may feel funny or uncomfortable, but it will not hurt.
+      audioClip: {fileID: 8300000, guid: 4b541a2048d00e241824d18326e03e16, type: 3}
+      sprite: {fileID: 21300000, guid: 6887e3f473fb1b14ab709867072fde7e, type: 3}
+    - text: 'I will see a little red light that looks really cool! '
+      audioClip: {fileID: 8300000, guid: 735d5bb1d1a98994b98800e05b784bce, type: 3}
+      sprite: {fileID: 21300000, guid: 1ed89b692c2614044be2e19bb52e6560, type: 3}
+    - text: This is a sensor that uses light to measure how much oxygen my body is
+        using when I breath.
+      audioClip: {fileID: 8300000, guid: 98bc334b073ccb045a1f929bab1fff2b, type: 3}
+      sprite: {fileID: 21300000, guid: 1a850d0d3f2e78e4c8b903b65aade70e, type: 3}
+    - text: 'Sometimes nurses use a finger oximeter one time for a quick reading. '
+      audioClip: {fileID: 8300000, guid: e24962f1b237d484e9a96fa8b83ea766, type: 3}
+      sprite: {fileID: 21300000, guid: dadb8595fc5cec84eb46e8fdac49c57c, type: 3}
+    - text: 'Sometimes I will need to leave it on longer so that the nurses can get
+        multiple readings. '
+      audioClip: {fileID: 8300000, guid: dd0b7af041f8bad45b9da64bf64e4831, type: 3}
+      sprite: {fileID: 21300000, guid: 3a854d1460c8fac47ba94928c9785f1c, type: 3}
+    - text: 'I will need to stay calm and still so the nurse gets the most accurate
+        reading. '
+      audioClip: {fileID: 8300000, guid: f63c6a906c3096e41b5dcb70c30b2616, type: 3}
+      sprite: {fileID: 21300000, guid: 2ed24f90c6fae2f45bbb7567bed13508, type: 3}

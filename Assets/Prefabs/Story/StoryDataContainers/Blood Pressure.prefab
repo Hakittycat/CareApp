@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2542671194671141216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2542671194671141219}
+  - component: {fileID: 2542671194671141218}
+  m_Layer: 5
+  m_Name: Blood Pressure
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2542671194671141219
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2542671194671141216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2542671194671141218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2542671194671141216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: blood-pressure
+    name: Blood Pressure
+    slides:
+    - text: I need to have my blood pressure taken to see how hard my heart is working.
+      audioClip: {fileID: 8300000, guid: 2f28cb99a1c37d84d8a8bc3ebc507067, type: 3}
+      sprite: {fileID: 21300000, guid: 079887848aebe674896e3c4f7d8641e7, type: 3}
+    - text: Blood pressure is measured using a special instrument.
+      audioClip: {fileID: 8300000, guid: 517a405e2b59c1e46bb70702a0f6fe8c, type: 3}
+      sprite: {fileID: 21300000, guid: d20b6ff9ab7d461448bb8fd669fba028, type: 3}
+    - text: The nurse will put the blood pressure cuff on my arm.
+      audioClip: {fileID: 8300000, guid: 5adde6629596f2742b2556f146fef79c, type: 3}
+      sprite: {fileID: 21300000, guid: 44a477efdb8d35e4597bd1e96ab8c2c3, type: 3}
+    - text: The cuff will give my arm a hug! It will feel tight but it will not hurt
+        me.
+      audioClip: {fileID: 8300000, guid: 621e2a8bece0ef043b5a9c7eeaaa402c, type: 3}
+      sprite: {fileID: 21300000, guid: 3fc8be281c1306247a9f10fab2461db6, type: 3}
+    - text: The nurse may also use a stethoscope to listen.
+      audioClip: {fileID: 8300000, guid: c9afd6ceada0a674392388a5ef112d7a, type: 3}
+      sprite: {fileID: 21300000, guid: b427049600c56704aa55d9d6e9a440f6, type: 3}
+    - text: I will sit still and relax. I can close my eyes or count.
+      audioClip: {fileID: 8300000, guid: 8866b0ee60e639041b1604a5276ec3b2, type: 3}
+      sprite: {fileID: 21300000, guid: 8a7c266145b382b4aa4ef41f9d130ca9, type: 3}
+    - text: Soon the blood pressure cuff will stop squeezing.
+      audioClip: {fileID: 8300000, guid: 9a8db2ba5784a5c49a1bc7fa5d6e2f18, type: 3}
+      sprite: {fileID: 21300000, guid: 04f615350e64c0d4580d53295479626c, type: 3}
+    - text: The nurse will take the cuff off my arm.
+      audioClip: {fileID: 8300000, guid: fd0a714ccaa743145a06d9c21cd0b999, type: 3}
+      sprite: {fileID: 21300000, guid: 22d56be906c039845949bda918ceafcf, type: 3}
+    - text: I did a great job!
+      audioClip: {fileID: 8300000, guid: 12138447a92cc4d499f13db6f1e3c326, type: 3}
+      sprite: {fileID: 21300000, guid: a809abfcd61cf844ca6fe84e5a0b2826, type: 3}

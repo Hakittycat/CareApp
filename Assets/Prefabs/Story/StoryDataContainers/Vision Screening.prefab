@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6235486131639640425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6235486131639640424}
+  - component: {fileID: 6235486131639640431}
+  m_Layer: 5
+  m_Name: Vision Screening
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6235486131639640424
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6235486131639640425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6235486131639640431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6235486131639640425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: vision-screening
+    name: Vision Screening
+    slides:
+    - text: Today I will get my vision checked.
+      audioClip: {fileID: 8300000, guid: ef5116bc4cc58e04c967fab706c43288, type: 3}
+      sprite: {fileID: 21300000, guid: d1e0fa8a268820340b80c8f89566339f, type: 3}
+    - text: The medical assistant wants to make sure my eyes are working properly.
+      audioClip: {fileID: 8300000, guid: 972379d34c1f02d4989bafae468778b4, type: 3}
+      sprite: {fileID: 21300000, guid: d64a2a0cbfcf4c94d9cbad8dc79890f8, type: 3}
+    - text: I will sit in a chair and wait for directions.
+      audioClip: {fileID: 8300000, guid: 611e26bfe403262419ac24dd8ec5e4c3, type: 3}
+      sprite: {fileID: 21300000, guid: 061655364c52d4a43b6dba279b54eb55, type: 3}
+    - text: The medical assistant may turn off the light for part of the exam. The
+        room will be darker but I will still be able to see the medical assistant
+        and my family.
+      audioClip: {fileID: 8300000, guid: e10b25abd9472a140bb34da3a75c8f75, type: 3}
+      sprite: {fileID: 21300000, guid: 9d6755c2d97c47743be007d1538f53e9, type: 3}
+    - text: The medical assistant may use a special flashlight to look closely at
+        my eyes. This may be uncomfortable, but it will not hurt.
+      audioClip: {fileID: 8300000, guid: 4e52aaaa6c0d1ef4d9e37334ab0626f9, type: 3}
+      sprite: {fileID: 21300000, guid: 4807c6c81b2f99a40bb0abcf8292fdf7, type: 3}
+    - text: Then, the they will ask me to look at an eye chart.
+      audioClip: {fileID: 8300000, guid: 60542aaa00835be4b8e3c2cb006d728e, type: 3}
+      sprite: {fileID: 21300000, guid: a470320ff98bd074bab0a63303c918be, type: 3}
+    - text: The eye chart may have letters, shapes, or pictures.
+      audioClip: {fileID: 8300000, guid: e8b4734e0a449fc44b41b442917afda7, type: 3}
+      sprite: {fileID: 21300000, guid: 75bce9de7ad92714893ff040ee47323f, type: 3}
+    - text: Some things may be hard to see and that is okay! Other things may be
+        easy to see!
+      audioClip: {fileID: 8300000, guid: cd462eb71f16d6643b6884e5b53c19c9, type: 3}
+      sprite: {fileID: 21300000, guid: 0b3bea39cc3ea5a4a847e99543cd208e, type: 3}
+    - text: The medical assistant will tell me when the vision screening is over.
+      audioClip: {fileID: 8300000, guid: c6fa5a495480d8f4a96055b581ca3cba, type: 3}
+      sprite: {fileID: 21300000, guid: 9a2eb6acb8f5ff344a757bc37bf5dcf4, type: 3}
+    - text: I did a great job!
+      audioClip: {fileID: 8300000, guid: f8defa5caeb02204fa5dc86ea265dbad, type: 3}
+      sprite: {fileID: 21300000, guid: 06dfb8c7b9cdd54449a7f3f936742799, type: 3}

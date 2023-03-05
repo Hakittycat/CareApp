@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3489988400559244455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3489988400559244454}
+  - component: {fileID: 3489988400559244457}
+  m_Layer: 5
+  m_Name: Suppository
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3489988400559244454
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489988400559244455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3489988400559244457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489988400559244455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: suppository
+    name: Suppository
+    slides:
+    - text: A suppository is one way to get medicine that I need to help me feel
+        better.
+      audioClip: {fileID: 8300000, guid: 1e4e6287432cf364d83f8c868a4eb275, type: 3}
+      sprite: {fileID: 21300000, guid: 6859e9704a0e9f348b6d90fc501dfb72, type: 3}
+    - text: 'I need a suppository because I may not be able to swallow a pill or
+        it may upset my stomach. '
+      audioClip: {fileID: 8300000, guid: fbe0c95e9a3f3e54490d8bafaf70b106, type: 3}
+      sprite: {fileID: 21300000, guid: e6ede0756a6b99342840eb03fc33d943, type: 3}
+    - text: A suppository is a small, round object that goes into my bottom (butt).
+      audioClip: {fileID: 8300000, guid: f782ae9c21d20734e85408149f109535, type: 3}
+      sprite: {fileID: 21300000, guid: bc66585a930a3c346a2d6705833aef3e, type: 3}
+    - text: 'I will get in a comfortable position. I will lie down on my side with
+        one leg straight and the other leg bent to my stomach. '
+      audioClip: {fileID: 8300000, guid: 8d51f9e5ceed361449463932f99cfd58, type: 3}
+      sprite: {fileID: 21300000, guid: 4992936622929d44aa8cce4270fc7ce7, type: 3}
+    - text: The nurse will spread my buttocks open. She will carefully push the suppository
+        into my bottom.
+      audioClip: {fileID: 8300000, guid: 06ddf62abcce2a24fb3efc0fa2c91b69, type: 3}
+      sprite: {fileID: 21300000, guid: 93971938005eb0946b6515132ab8604f, type: 3}
+    - text: It may feel funny or uncomfortable when it goes in.
+      audioClip: {fileID: 8300000, guid: 6149170ceba150949828d3eefd77b9e4, type: 3}
+      sprite: {fileID: 21300000, guid: 8999744de4e85b44a9e63f9109b74606, type: 3}
+    - text: I will need to lie down on the bed for a few minutes to make sure the
+        medicine does not come back out.
+      audioClip: {fileID: 8300000, guid: 278dab278d73b34449546835ad7fe611, type: 3}
+      sprite: {fileID: 21300000, guid: 81e8210346f0c09439d31c371db0c4b1, type: 3}
+    - text: I am all done. I was so brave! Great job!
+      audioClip: {fileID: 8300000, guid: 7bb5d698692c4c34cbb19fcd450c4dc0, type: 3}
+      sprite: {fileID: 21300000, guid: 66d1d3bca3cfaf546afa8c4d994baaa3, type: 3}

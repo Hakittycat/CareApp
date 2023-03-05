@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3356787619712733337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3356787619712733342}
+  - component: {fileID: 3356787619712733343}
+  m_Layer: 5
+  m_Name: Changing into Gown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3356787619712733342
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356787619712733337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3356787619712733343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356787619712733337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace8d596a06d4831877952c883357c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+    id: changing-into-gown
+    name: Changing into Gown
+    slides:
+    - text: 'I am at the hospital because I am hurt or sick. '
+      audioClip: {fileID: 8300000, guid: e33e0e79433979842932260472f0b16a, type: 3}
+      sprite: {fileID: 21300000, guid: b6da4fa1300db2b46b0acaf9ee82bb75, type: 3}
+    - text: 'When my name is called I will go back into a room.  '
+      audioClip: {fileID: 8300000, guid: d14fb0e388294d34fb744312430f67df, type: 3}
+      sprite: {fileID: 21300000, guid: 7e39a752e889b5e41a67abc552d09f00, type: 3}
+    - text: 'The nurse will give me a hospital gown.  '
+      audioClip: {fileID: 8300000, guid: 8e16759fbada1a940add68dbf3b8bab3, type: 3}
+      sprite: {fileID: 21300000, guid: 3b23f036921e94e4babcca3a338e5def, type: 3}
+    - text: 'The hospital gown is like special pajamas! I may even get slippers too! '
+      audioClip: {fileID: 8300000, guid: cf4a7c257b437244ab323cbd1dea32ec, type: 3}
+      sprite: {fileID: 21300000, guid: 6d32be23344e873499c37ca4693cc30e, type: 3}
+    - text: 'What color will I get? It is fun to guess! '
+      audioClip: {fileID: 8300000, guid: 00a793a45e6e5de42806a109c4f1937c, type: 3}
+      sprite: {fileID: 21300000, guid: 3af1d3aa3d939eb489f2eef7c915c4ed, type: 3}
+    - text: 'I will need to take off my clothes and put on the hospital gown. '
+      audioClip: {fileID: 8300000, guid: 64d8a013079d64f48a799da3e4c45b8d, type: 3}
+      sprite: {fileID: 21300000, guid: 2d48183e56db9014fa9117e4330e6a1a, type: 3}
+    - text: 'I can ask for help if I need it. '
+      audioClip: {fileID: 8300000, guid: 6d10df96d45ed5a4681fcc49bcc4c7d6, type: 3}
+      sprite: {fileID: 21300000, guid: 084945f90312a7d4abac52dce1573c8c, type: 3}
+    - text: 'I will put my clothes into a special bag that I can keep with me. '
+      audioClip: {fileID: 8300000, guid: 84b7e6d63a859e44aa99f5ea9ce13fa9, type: 3}
+      sprite: {fileID: 21300000, guid: 835f49bc7fa1345468a193946901256d, type: 3}
+    - text: 'I have a to wear a hospital gown so that my own clothes do not get dirty.  '
+      audioClip: {fileID: 8300000, guid: f7bd25297d256b3469a9fa03edcdd0a9, type: 3}
+      sprite: {fileID: 21300000, guid: 868a3630e5c3bec43ba710a9d05e9789, type: 3}
+    - text: 'I must wear a hospital gown to keep me safe. '
+      audioClip: {fileID: 8300000, guid: ce5f6ba44c85e5249b9d48b8b3b066cd, type: 3}
+      sprite: {fileID: 21300000, guid: 28d3d45adeddb51409562058e7962ce0, type: 3}
+    - text: 'The hospital gown will make it easier for the nurses and doctors to
+        examine me so they can help me get better. '
+      audioClip: {fileID: 8300000, guid: 239cb23b4d47828448c1db644010fb67, type: 3}
+      sprite: {fileID: 21300000, guid: 94eca0bba0bd17d4183d3f9d363e680e, type: 3}
+    - text: 'I can sit down when I am done changing. '
+      audioClip: {fileID: 8300000, guid: dd3283fef42ffac4f9356b02324accb2, type: 3}
+      sprite: {fileID: 21300000, guid: 1e47a25b36784034d8005d7cc8d9df68, type: 3}
+    - text: 'I will wait for the nurse to tell me what will happen next. '
+      audioClip: {fileID: 8300000, guid: def3630b815708146870423b36d79090, type: 3}
+      sprite: {fileID: 21300000, guid: ec573ec5826612c42bd8423b3976d265, type: 3}
